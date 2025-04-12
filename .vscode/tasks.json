@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build with SFML",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-IC:/SFML/include",
+        "-LC:/SFML/lib",
+        "timber.cpp",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system",
+        "-lsfml-audio",      // ✅ ADD THIS LINE
+        "-o",
+        "sfml-app.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
