@@ -15,7 +15,7 @@ A fun C++ game built with SFML where you chop down trees while avoiding falling 
 
 ## 📸 Screenshot
 
-![Gameplay](graphics/screenshot.png)
+![Gameplay](https://github.com/RanjanKumar971/Game-with-C-/blob/main/graphics/startscreen.png)
 
 ---
 
